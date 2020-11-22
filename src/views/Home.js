@@ -47,7 +47,7 @@ function Home() {
 
     // Returning the content
     return (
-        <div>
+        <div className="main">
             {content}
         </div>
     )

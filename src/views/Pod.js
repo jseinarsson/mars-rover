@@ -39,7 +39,7 @@ function POD() {
     }
 
     return (
-        <main>
+        <main className="main">
             {content}
         </main>
     )
