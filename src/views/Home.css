@@ -3,6 +3,12 @@
   grid-template-columns: repeat(5, 1fr);
 }
 
+@media (orientation: portrait) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .img-container {
   height: 20vh;
   overflow: hidden;

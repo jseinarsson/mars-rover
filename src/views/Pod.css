@@ -49,3 +49,20 @@
   font-weight: bold;
   line-height: 1.4rem;
 }
+
+@media (orientation: portrait) {
+  .pod__container {
+    flex-direction: column;
+  }
+
+  .pod__img {
+    width: 100vw;
+    height: 50%;
+  }
+  .pod__info {
+    width: 100vw;
+    height: 50%;
+    justify-content: start;
+    padding: 20px;
+  }
+}
