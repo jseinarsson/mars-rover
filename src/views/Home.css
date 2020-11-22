@@ -1,0 +1,14 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.img-container {
+  height: 20vh;
+  background-color: red;
+}
+
+.pod-img {
+  width: 100%;
+  min-height: 100%;
+}
