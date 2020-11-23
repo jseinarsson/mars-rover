@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Module 4: Javascript/React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## (See the site live here)[https://jseinarsson.github.io/mars-rover/#/]
 
-## Available Scripts
+This is my React project. I created a SPA that shows images from (NASA's _Astronomy Picture of the Day_ API)[https://apod.nasa.gov/apod/]. My app currently tiles all the images (but not videos) from the year 2019 and allows you to click through each image to see the title, author (if relevant) and description/explanation text included in the API.
 
-In the project directory, you can run:
+I want to be able to add the functionality to change the year (probably limit it to the 21st century, although the project started in 1995) but haven't implemented it yet. I have this crazy little idea that you're able to click the year in the header to cycle through the years (which I concur is terrible navigation, but I have a slight affinity to brutalism), but so far have only implemeneted the clicking (using a useState hook), so that's there as a little novely.
 
-### `yarn start`
+### In this project I used:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- (**create-react-app**)[https://create-react-app.dev] to build the app
+- (**axios**)[https://github.com/axios/axios] to handle promises and the fetching of the API
+- (**React Router**)[https://reactrouter.com/web/guides/quick-start] to handle routing in the SPA
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I think that's it?
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Anyway, you can have a look through my components, views and the custom hook I created to handle the API, they're all in the src folder above.
