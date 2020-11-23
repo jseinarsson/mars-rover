@@ -1,6 +1,6 @@
 # Module 4: Javascript/React
 
-## (See the site live here)[https://jseinarsson.github.io/mars-rover/#/]
+(See the site live here)[https://jseinarsson.github.io/mars-rover/#/]
 
 This is my React project. I created a SPA that shows images from (NASA's _Astronomy Picture of the Day_ API)[https://apod.nasa.gov/apod/]. My app currently tiles all the images (but not videos) from the year 2019 and allows you to click through each image to see the title, author (if relevant) and description/explanation text included in the API.
 
